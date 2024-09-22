@@ -1,0 +1,100 @@
+.dashboardContainer {
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  background: linear-gradient(540deg, #000c19, #00254d);
+  color: #e5e5e5;
+}
+
+.dashboardExistingProjects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 25vh;
+  line-height: 1.5;
+  animation-name: example;
+  animation-duration: 1s;
+  transition: cubic-beizer(0.25, 1, 0.30, 1);
+  -webkit-backface-visibility: hidden;
+  -webkit-transform:translate3d(0,0,0);
+}
+
+.dashboardExistingProjects h1, .dashboardNewProject h1 {
+  font-weight: 500;
+  font-size: 50px;
+}
+
+.dashboardExistingProjects p, .dashboardNewProject p {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.dashboardNewProject {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 25vh;
+  line-height: 1.5;
+}
+
+.dashboardNewProject select {
+  width: 100%;
+  padding: 12px 10px;
+  border: none;
+  color: #333;
+  font-size: 17.5px;
+  border-radius: 5px;
+}
+
+.dashboardNewProject form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 15%;
+}
+
+.dashboardNewProject form input {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 17.5px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 12px 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.mainButtons {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500 !important;
+  font-size: 17.5px;
+  padding: 12px 15px;
+  color: #e5e5e5;
+  background: #3305f9;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: 0.25s;
+  width: 100%;
+}
+
+.mainButtons:hover {
+  color: white;
+  transition: 0.25s;
+}
+
+@keyframes example {
+  from {
+    height: 50vh;
+    opacity: 0.1;
+  }
+  to {
+    height: 25vh;
+    opacity: 1;
+  }
+}

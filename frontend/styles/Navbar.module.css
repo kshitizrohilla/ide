@@ -1,0 +1,12 @@
+.navbar {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  height: 10vh;
+  background: #252525;
+  color: white;
+}

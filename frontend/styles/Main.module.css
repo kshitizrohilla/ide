@@ -1,0 +1,71 @@
+.parentContainer {
+  background: linear-gradient(540deg, #000c19, #00254d);
+  height: 100vh;
+}
+
+.firstMain {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  line-height: 1.5;
+  animation-name: example;
+  animation-duration: 1s;
+  transition: cubic-beizer(0.25, 1, 0.30, 1);
+  -webkit-backface-visibility: hidden;
+  -webkit-transform:translate3d(0,0,0);
+}
+
+.firstMain h1 {
+  font-size: 100px;
+  font-weight: 500;
+  color: #e5e5e5;
+}
+
+.firstMain p {
+  font-size: 20px;
+  color: #e5e5e5;
+  font-weight: 400;
+  text-align: center;
+  width: 35%;
+  margin-bottom: 25px;
+}
+
+@keyframes example {
+  from {
+    height: 75vh;
+    opacity: 0.1;
+  }
+  to {
+    height: 50vh;
+    opacity: 1;
+  }
+}
+
+.mainButtons {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 17.5px;
+  padding: 12px 15px;
+  color: #e5e5e5;
+  background: #3305f9;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.mainButtons:hover {
+  color: white;
+  transition: 0.25s;
+}
+
+.img {
+  width: 90%;
+  height: auto;
+  display: block;
+  margin: auto;
+  margin-top: -75px;
+}

@@ -1,0 +1,43 @@
+.editorContainer {
+  height: 100vh;
+}
+
+.object1 {
+  width: 37.5vw;;
+  height: 50vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.object2 {
+  width: 37.5vw;;
+  height: 50vh;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.textEditor {
+  background: #1e2429;
+  position: absolute;
+  width: 12.5vw;
+  line-height: 1.5;
+  height: 100vh;
+  color: #e5e5e5;
+  padding: 10px;
+  list-style-type: none;
+}
+
+.textEditor li {
+  background: rgba(255, 255, 255, 0.1);
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.monacoEditorContainer {
+  position: absolute;
+  left: 12.5vw;
+  width: 50vw;
+}
