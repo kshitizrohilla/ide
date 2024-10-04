@@ -1,0 +1,26 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "start_backend": "nodemon ../backend/index.js",
+    "both": "concurrently \"npm run dev\" \"npm run start_backend\""
+  },
+  "dependencies": {
+    "@monaco-editor/react": "^4.6.0",
+    "@xterm/xterm": "^5.5.0",
+    "axios": "^1.7.7",
+    "next": "14.2.13",
+    "react": "^18.3.1",
+    "react-dom": "^18",
+    "socket.io-client": "^4.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.13"
+  }
+}

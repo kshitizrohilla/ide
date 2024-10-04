@@ -1,0 +1,74 @@
+.wrapper {
+  /* background: linear-gradient(540deg, #000c19, #00254d); */
+  /* background: #0e1525; */
+  background: #0b1419; /* darker shade */
+  height: 100%;
+}
+
+.hero {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  text-align: center;
+  animation-name: example;
+  animation-duration: 1s;
+  transition: cubic-beizer(0.25, 1, 0.30, 1);
+  -webkit-backface-visibility: hidden;
+  -webkit-transform:translate3d(0,0,0);
+  color: #ddd;
+}
+
+.hero h1 {
+  font-size: 80px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 16px;
+  width: 30%;
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+
+@keyframes example {
+  from {
+    padding-top: 500px;
+    opacity: 0;
+  }
+  to {
+    padding-top: 100px;
+    opacity: 1;
+  }
+}
+
+.getStartedBtn {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 17.5px;
+  padding: 12px 15px;
+  color: #ddd;
+  background: #3305f9;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.getStartedBtn:hover {
+  color: white;
+  transition: 0.1s;
+}
+
+.editorScreenshot {
+  width: 70%;
+  height: auto;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 1000px darkblue;
+}
